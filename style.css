@@ -1,0 +1,23 @@
+body{
+    margin:0;
+    font-family:sans-serifgroun;
+    background-color: white;
+}
+.navigation{
+    background-color: black;
+    border-top: 2px solid coral;
+    padding: 12px 40px !important;
+}
+.brand-logo{
+    height: 26px;
+    width: auto;
+}
+.navigation-link{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: lightcoral !important;
+}
+.navigation-link:hover{
+    color: yellow !important;
+}
