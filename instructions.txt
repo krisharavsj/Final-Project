@@ -1,0 +1,115 @@
+<!--
+
+1) Start the HTML document with `<!DOCTYPE html>` and set language as English using `<html lang="en">`.
+
+2) Inside the `<head>` section:
+
+a) Add `<meta charset="UTF-8" />` to support special characters.
+
+b) Add `<meta name="viewport" content="width=device-width, initial-scale=1.0" />`
+
+to make the page responsive.
+
+c) Link Bootstrap CSS (v4.4.1) using the CDN.
+
+d) Link your custom CSS file using `<link rel="stylesheet" href="style.css" />`.
+
+e) Add Font Awesome script to use icons.
+
+f) Link Google Fonts (Baloo Tamma 2 and Roboto Slab) for typography.
+
+g) Set the page title using `<title>Portfolio</title>`.
+
+h) NOTE: Remove the extra character `q` after the Google Fonts link (it is a typo).
+
+3) Inside the `<body>` section:
+
+4) Create a main container for the hero text:
+
+a) Use `<div class="main-container container">`
+
+- `container` centers the content with Bootstrap.
+
+- `main-container` is your custom class for styling.
+
+5) Add introduction text using headings:
+
+a) `<h2 class="text-white">Hello, I'm</h2>`
+
+b) `<h1 class="text-warning m-heading">Codingal Technologies</h1>`
+
+- `text-warning` makes the text yellow (Bootstrap).
+
+- `m-heading` is a custom class for bigger styling.
+
+c) `<h2 class="text-white">Coding Education</h2>`
+
+6) Close all tags properly:
+
+a) Close the main container div, `</body>`, and `</html>`.
+
+-->
+
+
+
+/*
+
+1) Enable smooth scrolling for the full page:
+
+a) Use `scroll-behavior: smooth;` on the `html` selector.
+
+2) Style the `body`:
+
+a) Set a dark background color using `background: #252525;`
+
+b) Set the default font to "Baloo Tamma 2" with a fallback `cursive`.
+
+3) Style the main heading class `.m-heading`:
+
+a) Use "Roboto Slab" with a fallback `serif` for headings.
+
+4) Create a utility class `.text-white`:
+
+a) Set text color to white using `color: white;`
+
+5) Style the hero/main container `.main-container`:
+
+a) Set height to full viewport using `height: 100vh;`
+
+b) Use flexbox to center content:
+
+- `display: flex;`
+
+- `flex-direction: column;`
+
+- `justify-content: center;`
+
+- `align-items: center;`
+
+c) Add a background image using `background-image: url(''https://github.com/harshacc031-dot/img/blob/main/1.png?raw=true')`
+
+d) Keep the background fixed while scrolling using `background-attachment: fixed;`
+
+e) Make image cover the entire container using `background-size: cover;`
+
+6) Style `.main_row` (main row alignment):
+
+a) Use flexbox to align items in the center:
+
+- `display: flex;`
+
+- `justify-content: center;`
+
+- `align-items: center;`
+
+7) Style heading inside `.main_row`:
+
+a) Set large font size for `<h1>` using `font-size: 5rem;`
+
+8) Style image inside `.main_row`:
+
+a) Keep width automatic using `width: auto;`
+
+b) Set image height to full viewport using `height: 100vh;`
+
+*/
